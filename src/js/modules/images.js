@@ -4,13 +4,14 @@ const images = () => {
         bigImage = document.createElement('img');
 
     imgPopup.classList.add('popup');
-    bigImage.style.height = '80%';
-    bigImage.style.objectFit = 'contain';
     workSection.appendChild(imgPopup);
 
     imgPopup.style.display = 'none';
     imgPopup.style.justifyContent = 'center';
     imgPopup.style.alignItems = 'center';
+
+    bigImage.style.height = '80%';
+    bigImage.style.objectFit = 'contain';
 
     imgPopup.appendChild(bigImage);
 
